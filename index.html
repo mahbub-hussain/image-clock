@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="icon" href="img/fav.png" type="png" sizes="16x16">
+    <title>Digital Clock WIth Image</title>
+</head>
+<body>
+    <h2>Digital Clock WIth Image</h2>
+
+    <div id="clock1"></div>
+
+    <div id="clock2"></div>
+
+    
+        <style>
+
+        #clock1,
+        #clock2{
+            margin-top:20px; 
+            width: 600px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #clock1{
+            margin-top: 30px;
+        }
+        #clock2{
+            margin-top:30px;
+        }
+    
+        #clock2 img{
+            height: 80px;
+        }
+       
+        .semicol{
+            height: 150px;
+            width: 80px;
+            animation-name: semiani;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .dot2{
+            height: 50px !important;
+            margin-bottom: 10px;
+        }
+        .semicol2{
+         height: 100px 
+        }
+         img#clock2{
+            height: 120px;
+        }
+
+        @keyframes semiani{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+      
+       h2{
+           text-align: center;
+           color:#565465;
+       }
+        </style>
+
+
+
+<script src="clock.js"></script>
+</body>
+</html>
